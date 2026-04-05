@@ -2,7 +2,8 @@
 <html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
   <head>
     <title>Web Tech's First Virtual Asynchronous Museum</title>
-  
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="style.css">
 <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
 <mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
@@ -25,7 +26,7 @@
     <header>
       <h1>Web Tech's First Virtual Asynchronous Museum</h1>
       <input placeholder="insert keywords here" type="text" id="keywords">
-      <button id="new_artwork">Show random artwork</button>
+      <button id="new_artwork" onclick="getArtwork()">Show random artwork</button>
     </header>
     <main>
       <img id="artwork_image" src="" alt="artwork to show">
