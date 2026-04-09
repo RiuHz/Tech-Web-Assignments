@@ -42,6 +42,6 @@ function showImageNotFound() {
     let image = document.getElementById("artwork_image");
 
     image.style.display = "none";
-    document.getElementById("artwork_title").textContent = "";
-    document.getElementById("artwork_artist").textContent = "";
+    document.getElementById("artwork_title").textContent = "No Results Found";
+    document.getElementById("artwork_artist").textContent = "No Results Found";
 }
