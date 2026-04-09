@@ -70,3 +70,5 @@ function saveToLocalStorage() {
 
     localStorage.setItem("todos", JSON.stringify(json));
 }
+
+loadFromLocalStorage();
